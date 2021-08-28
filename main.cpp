@@ -86,15 +86,13 @@ int main() {
         cout << endl;
         cout << "Result" << endl;
         if (result == "null") {
-            if (result == "null") {
-                if (x1.imag() >= 0) { cout << "x1=" << x1.real() << "+" << x1.imag() << "i" << endl; }
-                else { cout << "x1=" << x1.real() << x1.imag() << "i" << endl; }
-                if (x2.imag() >= 0) { cout << "x2=" << x2.real() << "+" << x2.imag() << "i" << endl; }
-                else { cout << "x2=" << x2.real() << x2.imag() << "i" << endl; }
-            }
-            else {
-                cout << result << endl;
-            }
+            if (x1.imag() >= 0) { cout << "x1=" << x1.real() << "+" << x1.imag() << "i" << endl; }
+            else { cout << "x1=" << x1.real() << x1.imag() << "i" << endl; }
+            if (x2.imag() >= 0) { cout << "x2=" << x2.real() << "+" << x2.imag() << "i" << endl; }
+            else { cout << "x2=" << x2.real() << x2.imag() << "i" << endl; }
+        }
+        else {
+            cout << result << endl;
         }
     }
     else if (option == 4) {
@@ -159,8 +157,7 @@ int main() {
         }
         cout << endl;
         cout << "Result" << endl;
-        if (result == "null") {
-            if (result == "null") {
+         if (result == "null") {
                 if (x1.imag() >= 0) { cout << "x1=" << x1.real() << "+" << x1.imag() << "i" << endl; }
                 else { cout << "x1=" << x1.real() << x1.imag() << "i" << endl; }
                 if (x2.imag() >= 0) { cout << "x2=" << x2.real() << "+" << x2.imag() << "i" << endl; }
@@ -171,7 +168,6 @@ int main() {
             else {
                 cout << result << endl;
             }
-        }
     }
 
     system("pause"); // for windows users.
